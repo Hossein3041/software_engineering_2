@@ -1,0 +1,201 @@
+.main{
+text-align:center;
+height:100%;
+align-items:center;
+margin:auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.link-box {
+    background-color: rgb(214, 30, 91);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #79c4da;
+    padding: 20px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+}
+
+nav ul li a:before,
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+nav ul li a:before {
+    right: 50%;
+}
+
+nav ul li a:after {
+    left: 50%;
+}
+
+nav ul li a:hover:before,
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav ul li a.active {
+    color: #ede2e6;
+}
+
+a:link,
+a:visited {
+    background-color: #42410d;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(58, 30, 214);
+}
+/* Login-Formular */
+#output {
+  color: red;
+  margin-bottom: 10px;
+}
+
+header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form#myform {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form#myform label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form#myform input[type="text"],
+form#myform input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form#myform input[type="text"],
+form#myform input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form#myform input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form#myform input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Registrierungsformularausschnitt */
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+section header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section form {
+  margin-bottom: 20px;
+}
+
+section form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+section form input[type="text"],
+section form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+section form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section form input[type="submit"]:hover {
+  background-color: #45a049;
+}

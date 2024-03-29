@@ -1,0 +1,45 @@
+#output {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#myForm {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#myForm label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#myForm input[type="text"],
+#myForm input[type="date"],
+#myForm input[type="time"],
+#myForm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#myForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#myForm input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#sonstige_notizen {
+  width: 500px;
+  height: 100px;
+}
+
